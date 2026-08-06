@@ -3,10 +3,9 @@ name: 02 - Workflow Events
 on:
     pull_request:
     workflow_dispatch:
-
 jobs:
     echo:
         runs-on: ubuntu-latest
         steps:
             - name: Show the trigger
-              run: echo "I've been triggered by a(n) ${{github.event_name}} event."
+              run: echo "Running whenever a PR is opened or synchronized AND base branch is main"
