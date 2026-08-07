@@ -1,2 +1,1 @@
 This repository will be used for notes and examples from Github actions course
-Checking how filters activity types work.
